@@ -11,8 +11,8 @@ const path = require('path')
 
 const httpsServer = https.createServer(
 	{
-		key: fs.readFileSync(path.join(_dirname, "./", "aws-coo-fm-00.pem")),
-		cert: fs.readFileSync(path.join(_dirname, "./", "cert.pem")),
+		key: fs.readFileSync(path.join(__dirname, "./", "aws-coo-fm-00.pem")),
+		cert: fs.readFileSync(path.join(__dirname, "./", "cert.pem")),
 	},
 	app
 )
