@@ -11,7 +11,7 @@ https
 	.createServer(app)
 	.listen(5555, () => {
 		console.log('Conectado en puerto 5555')
-	}
+	})
 
 
 connectDB()
