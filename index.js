@@ -2,6 +2,7 @@ const connectDB = require('./db')
 const app = require('./app')
 const https = require('https')
 const fs = require('fs')
+const path = require('path')
 
 // async function main(){
 // 	await app.listen(443)
